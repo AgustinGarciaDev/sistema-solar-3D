@@ -1,13 +1,13 @@
 {
-  "name": "practica-web",
-  "version": "1.0.0",
-  "description": "",
-  "main": "main.js",
+  "version": "0.0.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
   },
-  "author": "",
-  "license": "ISC",
+  "devDependencies": {
+    "vite": "^2.4.2"
+  },
   "dependencies": {
     "three": "^0.130.1"
   }
