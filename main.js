@@ -40,7 +40,7 @@ const scene = new THREE.Scene();
 			const spaceTexture = new THREE.TextureLoader().load('./space-three.jpg')
 			scene.background = spaceTexture
 
-			const marteTexture = new THREE.TextureLoader().load('marte.jpg')
+			const marteTexture = new THREE.TextureLoader().load('./img/marte.jpg')
 
 			const marte = new THREE.Mesh(
 				new THREE.SphereGeometry(3, 32, 32),
